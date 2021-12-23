@@ -1,7 +1,18 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-	cout << "### Merry Christmas everyone ###" << endl; // prints !!!Hello World!!!
-	return 0;
+void paintTree(int iSpace, int iSize, char cTree);
+
+int main(){
+    char cTree;
+    int iSize, iSpace;
+
+    std::cout << "Christmas Tree Application" << std::endl;
+    std::cout << "Enter the size of your christmas tree: ";
+    std::cin >> iSize;
+    std::cout << "Enter the character you would like to use for your tree: ";
+    std::cin >> cTree;
+
+	paintTree(iSpace, iSize, cTree);
+    return 0;
 }
