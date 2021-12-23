@@ -7,7 +7,7 @@ int main(){
     char cTree;
     int iSize, iSpace;
 
-    std::cout << "Christmas Tree Application" << std::endl;
+    std::cout << "Christmas Tree Application Amanda" << std::endl;
     std::cout << "Enter the size of your christmas tree: ";
     std::cin >> iSize;
     std::cout << "Enter the character you would like to use for your tree: ";
