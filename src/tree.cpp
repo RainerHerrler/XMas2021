@@ -9,6 +9,9 @@ void paintTree(int iSpace, int iSize, char cTree) {
 		std::cout << sSpace + sTree + sSpace << std::endl;
 		iSpace -= 1;
 	}
+	std::cout << "           ***" << std::endl;
+	std::cout << "           ***" << std::endl;
+	std::cout << "           ***" << std::endl;
 }
 
 
